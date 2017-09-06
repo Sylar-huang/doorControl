@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Angular with Webpack</title>
+</head>
+<body ng-controller="SomeController" >
+<!--<h1>Angular + Webpack</h1>-->
+<!--<hello-world></hello-world>-->
+<link rel="stylesheet" href="styles/bootstrap.css">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="bundle.js"></script>
+<script src="styles/bootstrap.js"></script>
+<!--<p>test</p>-->
+<!--<p>{{doorStatus.collection}}</p>-->
+<!--<a href name="aaa" ng-click="answerCall()" >发送数据</a>-->
+<div class="col-md-12" style="text-align: center;border-color: white">
+    <div class="col-md-12" style="text-align: center;border-color: white">
+    <video style="width: 640px;height: 480px">
+        <source src="http://www.w3school.com.cn/example/html5/mov_bbb.mp4">
+    </video>
+    </div>
+    <div class="col-md-4">
+        <button type="button" class="btn btn-lg btn-primary" style="font-size: 50px" ng-model="singleModel" uib-btn-checkbox btn-checkbox-true="1" btn-checkbox-false="0">
+        接听
+    </button>
+    </div>
+    <div class="col-md-4">
+        <button type="button" class="btn btn-lg btn-danger" style="font-size: 50px" ng-model="singleModel" uib-btn-checkbox btn-checkbox-true="1" btn-checkbox-false="0">
+            挂断
+        </button>
+    </div>
+    <div class="col-md-4">
+        <button type="button" class="btn btn-lg btn-warning" style="font-size: 50px" ng-model="singleModel" uib-btn-checkbox btn-checkbox-true="1" btn-checkbox-false="0">
+            开门
+        </button>
+    </div>
+
+</div>
+
+
+
+</body>
+</html>
